@@ -1,0 +1,883 @@
+* {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navbar {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px 10px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+.logo img {
+    width: 100px;
+    height: 150px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links li {
+    padding: 10px 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.nav-links a:hover {
+    border-bottom: 1px solid white;
+}
+
+/* Navbar End */
+.product {
+    margin-top: 12%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.product .mySwiperswiper .swiper-wrapper .swiper-slide {
+    width: 40%;
+}
+
+.product .swiper-wrapper .swiper-slide img {
+    /* position: sticky; */
+    margin-top: 1%;
+    width: 100%;
+    height: 650px;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    margin-top: 20%;
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    background: transparent !important;
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.swiper-button-next {
+    color: black;
+}
+
+.swiper-button-prev {
+    color: black;
+}
+
+.product .size {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.product .size button {
+    width: 27%;
+    padding: 2% 3%;
+    border: solid 1px rgb(110, 109, 109);
+    background-color: white;
+    cursor: pointer;
+}
+
+.product .btn button {
+    margin-top: 5%;
+    padding: 3% 30%;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.product .btn :hover {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.product .content {
+    margin-left: 1%;
+    width: 60%;
+}
+
+.product .content h6 {
+    font-size: 15px;
+}
+
+.product .content h5 {
+    font-size: 18px;
+}
+
+.product .content p {
+    color: rgb(63, 62, 62);
+    font-size: 15px;
+    padding-right: 18%;
+}
+
+.product .content del {
+    padding: 0% 1%;
+    color: red;
+    text-decoration: line-through;
+}
+
+.product .btn2 button {
+    margin-top: 5%;
+    padding: 3% 32%;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border: solid 1px rgb(110, 109, 109);
+}
+
+.product .btn2 :hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.whatsapp {
+    display: inline-flex;
+    position: fixed;
+    padding: 1px 0px !important;
+    width: 15%;
+    left: auto;
+    right: 20px;
+    bottom: 40px;
+    z-index: 9999;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #12cf12;
+    /* background: rgb(37, 211, 102); */
+    gap: 0px;
+}
+
+.whatsapp img {
+    width: 36%;
+    height: 15%;
+}
+
+.whatsapp p {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: none !important;
+}
+
+.toggle-btn {
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    background: rgba(0, 0, 0, 0.0);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0%;
+    display: none;
+}
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    background-color: #ffff;
+
+}
+
+.footer h2 {
+    margin-bottom: 5%;
+}
+
+.footer .footwear {
+    padding-left: 10%;
+}
+
+.footer .footwear h2 {
+    margin-bottom: 20%;
+}
+
+.footer .footwear .content li {
+    margin: auto;
+    padding: 6% 0%;
+    font-size: 14px;
+    text-decoration: none !important;
+    list-style: none;
+    font-size: 14px;
+    padding-right: 15%;
+    color: rgb(61, 60, 60);
+    font-size: "Source Serif Pro", serif;
+    /* border-bottom:  1px solid black; */
+}
+
+.footer .footwear li:hover {
+    border-bottom: 1px solid black;
+}
+
+.footer .about {
+    padding-left: 6%;
+}
+
+.footer .about .contact h4 {
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    padding: 0% 0%;
+}
+
+.footer .about .mail {
+    display: flex;
+}
+
+.footer .about .mail svg {
+    width: 18px;
+    cursor: pointer;
+}
+
+.footer .about .gmail {
+    display: flex;
+}
+
+.footer .about svg {
+    padding: 0% 1% 0% 0%;
+    width: 18px;
+}
+
+.footer .about .phone {
+    display: flex;
+}
+
+.footer .about svg {
+    padding: 0% 1% 0% 0%;
+    width: 15px;
+}
+
+.footer .about .content p {
+    font-style: italic;
+    padding: 5% 0%;
+    font-size: 14px;
+    padding-right: 15%;
+    color: gray;
+    font-size: "Source Serif Pro", serif;
+}
+
+.footer .about .content h3 {
+    color: rgb(88, 87, 87);
+    font-size: 14px;
+    padding: 0px 0%;
+}
+
+
+.footer .about .content input {
+    border: none;
+    outline-style: none;
+    margin-top: 2%;
+    padding: 1% 0%;
+    font-size: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.footer .tweet p {
+    font-style: italic;
+    padding: 4% 0%;
+    font-size: 14px;
+    padding-right: 14%;
+    color: gray;
+    font-size: "Source Serif Pro", serif;
+}
+
+.footer .instagram svg {
+    padding: 5% 0%;
+    width: 9%;
+    flex-wrap: wrap;
+}
+
+@media (min-width:1301px) {
+    .navbar {
+        width: 100%;
+        padding: 0%;
+    }
+
+    .nav-links li {
+        display: flex;
+        font-size: 22px;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer .footwear h2 {
+        font-size: 30px;
+    }
+
+    .footer .footwear .content li {
+        font-size: 18px;
+    }
+
+    .footer .about h2 {
+        font-size: 30px;
+    }
+
+    .footer .about .content p {
+        font-size: 17px;
+        /* padding: 0%; */
+    }
+
+    .footer .about .contact h4 {
+        font-size: 22px;
+    }
+
+    .footer .about .phone h3 {
+        padding: 0%;
+        font-size: 19px;
+    }
+
+    .footer .about .phone svg {
+        width: 18px;
+    }
+
+    .footer .about .gmail h3 {
+        font-size: 19px;
+    }
+
+    .footer .about .gmail svg {
+        width: 18px;
+    }
+
+    .footer .about .mail input {
+        font-size: 18px;
+    }
+
+    .footer .about .mail svg {
+        width: 19px;
+    }
+
+    .footer .tweet h2 {
+        font-size: 30px;
+        padding: 0%;
+    }
+
+    .footer .tweet p {
+        font-size: 17px;
+    }
+
+    .footer .instagram h2 {
+        font-size: 30px;
+    }
+}
+
+/* 1008px */
+@media (min-width:1008px) and (max-width:1300px) {
+    .navbar {
+        width: 100%;
+        padding: 0%;
+    }
+
+    .nav-links li {
+        display: flex;
+        font-size: 20px;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer .footwear h2 {
+        font-size: 25px;
+    }
+
+    .footer .footwear .content li {
+        font-size: 17px;
+    }
+
+    .footer .about h2 {
+        font-size: 25px;
+    }
+
+    .footer .about .content p {
+        font-size: 16px;
+    }
+
+    .footer .about .contact h4 {
+        font-size: 21px;
+    }
+
+    .footer .about .phone h3 {
+        padding: 0%;
+        font-size: 17px;
+    }
+
+    .footer .about .phone svg {
+        width: 16px;
+    }
+
+    .footer .about .gmail h3 {
+        font-size: 17px;
+    }
+
+    .footer .about .gmail svg {
+        width: 16px;
+    }
+
+    .footer .about .mail input {
+        font-size: 17px;
+    }
+
+    .footer .about .mail svg {
+        width: 16px;
+    }
+
+    .footer .tweet h2 {
+        font-size: 25px;
+        padding: 0%;
+    }
+
+    .footer .tweet p {
+        font-size: 16px;
+    }
+
+    .footer .instagram h2 {
+        font-size: 25px;
+    }
+}
+
+/* 641 */
+@media (min-width:641px) and (max-width:1007px) {
+    .navbar {
+        width: 100%;
+        padding: 0%;
+    }
+
+    .nav-links li {
+        display: flex;
+        font-size: 19px;
+        /* padding: 0%; */
+    }
+
+    .product {
+        margin-top: 24%;
+        width: 100%;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100% !important;
+    }
+
+    .product .mySwiperswiper .swiper-wrapper .swiper-slide {
+        width: 30%;
+    }
+
+    .product .swiper-wrapper .swiper-slide img {
+        width: 70%;
+        height: 350px;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+
+    .swiper-button-next {
+        margin-top: 5%;
+    }
+
+    .swiper-button-prev {
+        margin-top: 5%;
+    }
+
+    .product .size {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .product .size button {
+        width: 27%;
+        padding: 2% 3%;
+    }
+
+    .product .btn button {
+        margin-top: 5%;
+        padding: 3% 27%;
+        font-size: 14px;
+    }
+
+    .product .content {
+        margin-left: 1%;
+        width: 70%;
+    }
+
+    .product .content h1 {
+        font-size: 19px;
+    }
+
+    .product .content h6 {
+        font-size: 16px;
+    }
+
+    .product .content h5 {
+        font-size: 16px;
+    }
+
+    .product .content p {
+        font-size: 15px;
+        padding-right: 1%;
+    }
+
+    .product .content del {
+        font-size: 16px;
+        padding: 0% 1%;
+        color: red;
+        text-decoration: line-through;
+    }
+
+    .product .btn2 button {
+        margin-top: 5%;
+        padding: 3% 30%;
+        font-size: 14px;
+    }
+
+    .swiper-button-next:after,
+    .swiper-rtl .swiper-button-prev:after {
+        content: 'next';
+        font-size: 16px;
+    }
+
+    .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-prev:after {
+        content: 'prev';
+        font-size: 16px;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer .footwear h2 {
+        font-size: 22px;
+    }
+
+    .footer .footwear .content li {
+        font-size: 16px;
+    }
+
+    .footer .about h2 {
+        font-size: 22px;
+    }
+
+    .footer .about .content p {
+        font-size: 15px;
+    }
+
+    .footer .about .contact h4 {
+        font-size: 20px;
+    }
+
+    .footer .about .phone h3 {
+        font-size: 17px;
+    }
+
+    .footer .about .phone svg {
+        width: 16px;
+    }
+
+    .footer .about .gmail h3 {
+        font-size: 17px;
+    }
+
+    .footer .about .gmail svg {
+        width: 16px;
+    }
+
+    .footer .about .mail input {
+        font-size: 16px;
+    }
+
+    .footer .about .mail svg {
+        width: 16px;
+    }
+
+    .footer .tweet h2 {
+        font-size: 22px;
+    }
+
+    .footer .tweet p {
+        font-size: 16px;
+    }
+
+    .footer .instagram h2 {
+        font-size: 22px;
+    }
+
+    .whatsapp {
+        width: 20%;
+    }
+
+}
+
+/* 360 */
+@media (min-width: 360px) and (max-width: 640px) {
+    .navbar {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 0%;
+        position: absolute;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        font-size: 16px;
+        padding: 0%;
+    }
+
+    .nav-links a {
+        /* padding: 10px 20px; */
+        text-align: start;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    .product {
+        margin-top: 24%;
+        width: 100%;
+    }
+
+    .swiper {
+        margin-top: 27%;
+        width: 90%;
+        height: 100% !important;
+    }
+
+    .product .mySwiperswiper .swiper-wrapper .swiper-slide {
+        width: 30%;
+    }
+
+    .product .swiper-wrapper .swiper-slide img {
+        width: 70%;
+        height: 250px;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+
+    .swiper-button-next {
+        margin-top: 5%;
+    }
+
+    .swiper-button-prev {
+        margin-top: 5%;
+    }
+
+    .product .size {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .product .size button {
+        width: 27%;
+        padding: 2% 3%;
+    }
+
+    .product .btn button {
+        margin-top: 5%;
+        padding: 3% 20%;
+        font-size: 13px;
+    }
+
+    .product .content {
+        margin-left: 1%;
+        width: 70%;
+    }
+
+    .product .content h1 {
+        font-size: 17px;
+    }
+
+    .product .content h6 {
+        font-size: 15px;
+    }
+
+    .product .content h5 {
+        font-size: 15px;
+    }
+
+    .product .content p {
+        font-size: 13px;
+        padding-right: 1%;
+    }
+
+    .product .content del {
+        font-size: 15px;
+        padding: 0% 1%;
+        color: red;
+        text-decoration: line-through;
+    }
+
+    .product .btn2 button {
+        margin-top: 5%;
+        padding: 3% 20%;
+        font-size: 13px;
+    }
+
+    .swiper-button-next:after,
+    .swiper-rtl .swiper-button-prev:after {
+        content: 'next';
+        font-size: 14px;
+    }
+
+    .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-prev:after {
+        content: 'prev';
+        font-size: 14px;
+    }
+
+    .footer {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .footer .footwear h2 {
+        font-size: 22px;
+    }
+
+    .footer .footwear .content li {
+        font-size: 16px;
+    }
+
+    .footer .about h2 {
+        font-size: 22px;
+    }
+
+    .footer .about .content p {
+        font-size: 15px;
+        padding: 0%
+    }
+
+    .footer .about .contact h4 {
+        font-size: 20px;
+    }
+
+    .footer .about .phone h3 {
+        font-size: 17px;
+    }
+
+    .footer .about .phone svg {
+        width: 16px;
+    }
+
+    .footer .about .gmail h3 {
+        font-size: 17px;
+    }
+
+    .footer .about .gmail svg {
+        width: 16px;
+    }
+
+    .footer .about .mail input {
+        font-size: 16px;
+    }
+
+    .footer .about .mail svg {
+        width: 16px;
+    }
+
+    .footer .tweet h2 {
+        margin-top: 8%;
+        font-size: 22px;
+        margin-left: 5%;
+    }
+
+    .footer .tweet p {
+        margin-left: 5%;
+        font-size: 16px;
+        padding: 0%;
+    }
+
+    .footer .instagram h2 {
+        align-items: center;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .footer .instagram svg {
+        margin-left: 12%;
+        text-align: center;
+    }
+
+    .whatsapp {
+        width: 30%;
+    }
+
+    .toggle-btn {
+        display: block;
+    }
+
+}
